@@ -1,0 +1,19 @@
+{
+  "name": "frontendv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "d3": "^4.13.0",
+    "watchify": "^3.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.1.1"
+  }
+}
