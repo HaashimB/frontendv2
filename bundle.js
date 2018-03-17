@@ -7894,11 +7894,16 @@ function createCircle(d){
             .attr('r', (d[i].count)/15)
             .on('mouseover', function(){
                 col = d3.select(this).style('fill');
+                console.log(d3.select(this).attr('cx') + ',' + d3.select(this).attr('cy'));
                 d3.select(this)
                     .style('fill', 'orange');
             })
             .on('mouseout', function(){
                 d3.select(this).style('fill', col);
+            })
+            .on('click', function(){
+                d3.select(this).style('fill', 'green');
+                col = d3.select(this).style('fill');
             });
             svg.append('text')
                 .attr('x', locationX[i])
@@ -7970,7 +7975,7 @@ var locationX = [136,
     1026,
     632,
     931,
-    1099,
+    599,
     118,
     446,
     1275,
