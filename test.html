@@ -39,24 +39,24 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-    var json = [];
-    axios.get("http://127.0.0.1:8000/stack/tags/?format=json")
-        .then(function(res){
-            data = (res.data);
-
-             json = data.map(function(p){return p.content});
-            parseJSON(json)
-        })
-        .catch(function(error){
-            console.log(error)
-        });
-    var o;
-    function parseJSON(d){
-        console.log(JSON.stringify(d));
-        o = JSON.stringify(d);
-//        o = JSON.parse(o);
-//        console.log(o)
-    }
+//    var json = [];
+//    axios.get("http://127.0.0.1:8000/stack/tags/?format=json")
+//        .then(function(res){
+//            data = (res.data);
+//
+//             json = data.map(function(p){return p.content});
+//            parseJSON(json)
+//        })
+//        .catch(function(error){
+//            console.log(error)
+//        });
+//    var o;
+//    function parseJSON(d){
+//        console.log(JSON.stringify(d));
+//        o = JSON.stringify(d);
+////        o = JSON.parse(o);
+////        console.log(o)
+//    }
 
 
     var svg = d3.select("svg"),
@@ -73,10 +73,10 @@
         .size([diameter - margin, diameter - margin])
         .padding(2);
 
-    d3.json(o, function(error, root) {
+    d3.json("./data/tags1.json", function(error, root) {
         if (error) throw error;
 
-        root = d3.hierarchy(root.content)
+        root = d3.hierarchy(root)
             .sum(function(d) { return d.size; })
             .sort(function(a, b) { return b.value - a.value; });
 
