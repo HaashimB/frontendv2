@@ -1,0 +1,1207 @@
+{
+  "name": "stackoverflow",
+  "children": [
+    {
+      "name": "reactjs",
+      "size": 2,
+      "children": [
+        {
+          "name": "ecmascript-6",
+          "size": 1,
+          "children": [
+            {
+              "name": "react-router-v4",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "redux",
+          "size": 1,
+          "children": [
+            {
+              "name": "react-router",
+              "size": 1,
+              "children": [
+                {
+                  "name": "react-router-v4",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "node.js",
+      "size": 2,
+      "children": [
+        {
+          "name": "git",
+          "size": 1,
+          "children": [
+            {
+              "name": "npm",
+              "size": 1,
+              "children": [
+                {
+                  "name": "version-control",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "lockfile",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "npm",
+          "size": 1,
+          "children": [
+            {
+              "name": "npm-install",
+              "size": 1,
+              "children": [
+                {
+                  "name": "package-lock.json",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "python",
+      "size": 5,
+      "children": [
+        {
+          "name": "tuples",
+          "size": 1,
+          "children": [
+            {
+              "name": "operator-precedence",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "performance",
+          "size": 1,
+          "children": [
+            {
+              "name": "python-3.x",
+              "size": 1,
+              "children": [
+                {
+                  "name": "python-3.5",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "python-internals",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "algorithm",
+          "size": 1,
+          "children": [
+            {
+              "name": "data-structures",
+              "size": 1,
+              "children": [
+                {
+                  "name": "number-theory",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "virtualenv",
+          "size": 1,
+          "children": [
+            {
+              "name": "virtualenvwrapper",
+              "size": 1,
+              "children": [
+                {
+                  "name": "pyenv",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "python-venv",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "python-3.x",
+          "size": 1,
+          "children": [
+            {
+              "name": "syntax",
+              "size": 1,
+              "children": [
+                {
+                  "name": "operators",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "python-2.x",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "c",
+      "size": 6,
+      "children": [
+        {
+          "name": "sizeof",
+          "size": 1,
+          "children": []
+        },
+        {
+          "name": "c-preprocessor",
+          "size": 1,
+          "children": []
+        },
+        {
+          "name": "switch-statement",
+          "size": 2,
+          "children": [
+            {
+              "name": "language-lawyer",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "boolean",
+          "size": 1,
+          "children": [
+            {
+              "name": "sizeof",
+              "size": 1,
+              "children": [
+                {
+                  "name": "conditional-operator",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "c11",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "gcc",
+          "size": 1,
+          "children": [
+            {
+              "name": "optimization",
+              "size": 1,
+              "children": [
+                {
+                  "name": "clang",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "android",
+      "size": 9,
+      "children": [
+        {
+          "name": "react-native",
+          "size": 1,
+          "children": [
+            {
+              "name": "react-native-android",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "android-studio-3.0",
+          "size": 1,
+          "children": []
+        },
+        {
+          "name": "dex",
+          "size": 1,
+          "children": [
+            {
+              "name": "android-studio-3.0",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "android-studio",
+          "size": 5,
+          "children": [
+            {
+              "name": "gradle",
+              "size": 3,
+              "children": [
+                {
+                  "name": "build",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "circleci",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "armv7",
+                  "size": 1,
+                  "children": []
+                },
+                {
+                  "name": "build.gradle",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "gradle-plugin",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "apk",
+              "size": 1,
+              "children": [
+                {
+                  "name": "signature",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "signing",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "build.gradle",
+              "size": 1,
+              "children": [
+                {
+                  "name": "android-studio-3.0",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "android-studio-2.3",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "android-gradle",
+          "size": 1,
+          "children": [
+            {
+              "name": "android-support-library",
+              "size": 1,
+              "children": [
+                {
+                  "name": "appcompat",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "if-statement",
+      "size": 1,
+      "children": [
+        {
+          "name": "language-agnostic",
+          "size": 1,
+          "children": [
+            {
+              "name": "condition",
+              "size": 1,
+              "children": [
+                {
+                  "name": "boolean-logic",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "java",
+      "size": 14,
+      "children": [
+        {
+          "name": "final",
+          "size": 1,
+          "children": [
+            {
+              "name": "class-variables",
+              "size": 1,
+              "children": [
+                {
+                  "name": "static-initialization",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "macos",
+          "size": 1,
+          "children": [
+            {
+              "name": "intellij-idea",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "lambda",
+          "size": 1,
+          "children": [
+            {
+              "name": "java-8",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "string",
+          "size": 1,
+          "children": [
+            {
+              "name": "emoji",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "jaxb",
+          "size": 1,
+          "children": [
+            {
+              "name": "java-9",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "unicode",
+          "size": 1,
+          "children": [
+            {
+              "name": "right-to-left",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "access-modifiers",
+          "size": 1,
+          "children": []
+        },
+        {
+          "name": "for-loop",
+          "size": 1,
+          "children": [
+            {
+              "name": "jvm",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "performance",
+          "size": 1,
+          "children": [
+            {
+              "name": "java-8",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "nullpointerexception",
+          "size": 2,
+          "children": [
+            {
+              "name": "boolean",
+              "size": 1,
+              "children": []
+            },
+            {
+              "name": "hashmap",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "jvm",
+          "size": 1,
+          "children": [
+            {
+              "name": "jit",
+              "size": 1,
+              "children": [
+                {
+                  "name": "jvm-hotspot",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "javascript",
+      "size": 6,
+      "children": [
+        {
+          "name": "google-chrome",
+          "size": 1,
+          "children": [
+            {
+              "name": "v8",
+              "size": 1,
+              "children": [
+                {
+                  "name": "ecmascript-7",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "google-maps",
+          "size": 1,
+          "children": [
+            {
+              "name": "javafx",
+              "size": 1,
+              "children": [
+                {
+                  "name": "javafx-webengine",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "promise",
+          "size": 1,
+          "children": [
+            {
+              "name": "async-await",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "function",
+          "size": 1,
+          "children": [
+            {
+              "name": "pure-function",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "reactjs",
+          "size": 1,
+          "children": [
+            {
+              "name": "nested",
+              "size": 1,
+              "children": [
+                {
+                  "name": "react-router",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "react-router-v4",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ecmascript-6",
+          "size": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "c++",
+      "size": 12,
+      "children": [
+        {
+          "name": "c++11",
+          "size": 1,
+          "children": [
+            {
+              "name": "lambda",
+              "size": 1,
+              "children": [
+                {
+                  "name": "language-lawyer",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "shadowing",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "if-statement",
+          "size": 1,
+          "children": []
+        },
+        {
+          "name": "operators",
+          "size": 1,
+          "children": [
+            {
+              "name": "c++-faq",
+              "size": 1,
+              "children": [
+                {
+                  "name": "c++20",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "spaceship-operator",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "language-lawyer",
+          "size": 2,
+          "children": [
+            {
+              "name": "operator-precedence",
+              "size": 1,
+              "children": [
+                {
+                  "name": "conditional-operator",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "c++17",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "for-loop",
+          "size": 1,
+          "children": [
+            {
+              "name": "scope",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "string",
+          "size": 1,
+          "children": [
+            {
+              "name": "stack-overflow",
+              "size": 1,
+              "children": [
+                {
+                  "name": "explicit",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "c++-faq",
+          "size": 1,
+          "children": [
+            {
+              "name": "cpp-core-guidelines",
+              "size": 1,
+              "children": [
+                {
+                  "name": "guideline-support-library",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "race-condition",
+          "size": 1,
+          "children": []
+        },
+        {
+          "name": "performance",
+          "size": 1,
+          "children": [
+            {
+              "name": "if-statement",
+              "size": 1,
+              "children": [
+                {
+                  "name": "optimization",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "branch-prediction",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "swift",
+      "size": 3,
+      "children": [
+        {
+          "name": "swift4",
+          "size": 2,
+          "children": [
+            {
+              "name": "xcode9-beta",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "string",
+          "size": 1,
+          "children": [
+            {
+              "name": "unicode",
+              "size": 1,
+              "children": [
+                {
+                  "name": "emoji",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "angular",
+      "size": 3,
+      "children": [
+        {
+          "name": "http",
+          "size": 1,
+          "children": [
+            {
+              "name": "httpclient",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "if-statement",
+          "size": 1,
+          "children": [
+            {
+              "name": "angular-template",
+              "size": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "angular-material",
+          "size": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "ios",
+      "size": 6,
+      "children": [
+        {
+          "name": "xcode",
+          "size": 4,
+          "children": [
+            {
+              "name": "itunesconnect",
+              "size": 1,
+              "children": [
+                {
+                  "name": "xcode8",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "cocoapods",
+              "size": 1,
+              "children": [
+                {
+                  "name": "warnings",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ios11",
+              "size": 1,
+              "children": [
+                {
+                  "name": "xcode9",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "objective-c",
+          "size": 1,
+          "children": [
+            {
+              "name": "iphone",
+              "size": 1,
+              "children": [
+                {
+                  "name": "iphone-x",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "push-notification",
+          "size": 1,
+          "children": [
+            {
+              "name": "ios11",
+              "size": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ios11",
+      "size": 1,
+      "children": [
+        {
+          "name": "xcode9",
+          "size": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "github",
+      "size": 1,
+      "children": [
+        {
+          "name": "markdown",
+          "size": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": ".net",
+      "size": 2,
+      "children": [
+        {
+          "name": ".net-core",
+          "size": 2,
+          "children": [
+            {
+              "name": ".net-standard",
+              "size": 1,
+              "children": []
+            },
+            {
+              "name": "class-library",
+              "size": 1,
+              "children": [
+                {
+                  "name": ".net-standard",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "c#",
+      "size": 5,
+      "children": [
+        {
+          "name": "getter",
+          "size": 1,
+          "children": [
+            {
+              "name": "shorthand",
+              "size": 1,
+              "children": [
+                {
+                  "name": "code-conventions",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "inheritance",
+          "size": 1,
+          "children": [
+            {
+              "name": "types",
+              "size": 1,
+              "children": [
+                {
+                  "name": "namespaces",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": ".net",
+          "size": 2,
+          "children": [
+            {
+              "name": "visual-studio",
+              "size": 1,
+              "children": [
+                {
+                  "name": ".net-core",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "performance",
+              "size": 1,
+              "children": [
+                {
+                  "name": "collections",
+                  "size": 1,
+                  "children": [
+                    {
+                      "name": "hashset",
+                      "size": 1,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "security",
+      "size": 1,
+      "children": [
+        {
+          "name": "assembly",
+          "size": 1,
+          "children": [
+            {
+              "name": "x86",
+              "size": 1,
+              "children": [
+                {
+                  "name": "cpu-architecture",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ruby",
+      "size": 1,
+      "children": []
+    },
+    {
+      "name": "cordova",
+      "size": 1,
+      "children": [
+        {
+          "name": "ionic-framework",
+          "size": 1,
+          "children": [
+            {
+              "name": "android-gradle",
+              "size": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tensorflow",
+      "size": 1,
+      "children": [
+        {
+          "name": "cpu",
+          "size": 1,
+          "children": [
+            {
+              "name": "avx",
+              "size": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "unit-testing",
+      "size": 1,
+      "children": [
+        {
+          "name": "visual-studio-2017",
+          "size": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "visual-studio",
+      "size": 1,
+      "children": [
+        {
+          "name": "visual-studio-2017",
+          "size": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "gradle",
+      "size": 1,
+      "children": [
+        {
+          "name": "android-studio-3.0",
+          "size": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "visual-studio-2017",
+      "size": 1,
+      "children": []
+    },
+    {
+      "name": "asp.net",
+      "size": 1,
+      "children": [
+        {
+          "name": "asp.net-core",
+          "size": 1,
+          "children": [
+            {
+              "name": "visual-studio-2017",
+              "size": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "msbuild",
+      "size": 1,
+      "children": [
+        {
+          "name": "visual-studio-2017",
+          "size": 1,
+          "children": [
+            {
+              "name": "build-tools",
+              "size": 1,
+              "children": [
+                {
+                  "name": "build-server",
+                  "size": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "npm",
+      "size": 1,
+      "children": []
+    },
+    {
+      "name": "php",
+      "size": 1,
+      "children": [
+        {
+          "name": "echo",
+          "size": 1,
+          "children": [
+            {
+              "name": "ellipsis",
+              "size": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
