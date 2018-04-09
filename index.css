@@ -37,3 +37,6 @@ h1{
     color: #2d6902;
     margin-left: 10px;
 }
+div{
+    display: inline;
+}
