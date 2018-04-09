@@ -3,39 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>StackOverVisualised</title>
-    <style>
-
-        .node {
-            cursor: pointer;
-        }
-
-        .node:hover {
-            stroke: #000;
-            stroke-width: 1.5px;
-        }
-
-        .node--leaf {
-            fill: white;
-        }
-
-        .label {
-            font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
-            text-anchor: middle;
-            text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
-        }
-
-        .label,
-        .node--root,
-        .node--leaf {
-            pointer-events: none;
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body>
+<body onload="loadPage()">
+    <div>
+        <h1>StackOverVisualised</h1>
+        <svg width="960" height="960"></svg>
+    </div>
 
-    <svg width="960" height="960"></svg>
-    <script src="bundle.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
