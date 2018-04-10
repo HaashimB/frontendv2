@@ -13,7 +13,7 @@ var pack = d3.pack()
     .padding(2);
 
 function callAPI() {
-    return axios.get("http://178.62.43.236:8888/stack/tags/");
+    return axios.get("http://127.0.0.1:8888/stack/tags/");
 }
 
 async function loadPage() {
