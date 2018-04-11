@@ -5,12 +5,24 @@
     <title>StackOverVisualised</title>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body onload="loadPage()">
+<body>
     <div>
         <h1>StackOverVisualised</h1>
-        <form action="https://github.com/hashdoge">
-            <input type="submit" value="GitHub" />
-        </form>
+        <ul id = "menu">
+            <li>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Circle Packing</button>
+                    <div id="myDropdown1" class="dropdown-content">
+                        <a onclick="loadPage(jan)" id = "jan">January 2018</a>
+                        <a onclick="loadPage(feb)" id = "feb">February 2018</a>
+                        <a onclick="loadPage(mar)" id = "mar">March 2018</a>
+                    </div>
+                </div>
+            </li>
+
+            <li><a id="git" href="https://github.com/hashdoge?tab=repositories">GitHub Repository</a></li>
+        </ul>
+
     </div>
     <svg width="960" height="960"></svg>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

@@ -12,21 +12,35 @@ var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
 
-function callAPI() {
-    var address = "http://67.207.71.67:8080/stack/tags/";
-    return axios.get(address);
-}
-
-async function loadPage() {
+async function loadPage(month){
+    removeD3Elements();
+    console.log(month.id);
     console.log('Calling API...');
-    result = await callAPI();
+    result = await callAPI(month.id);
     console.log('Got result!', result);
     data = result.data;
     list = data.map(function(p){return p.content});
     json = list[0];
-    d3.json(json , function(error, root) {
+
+    loadD3(json);
+}
+function callAPI(month) {
+
+    var address = "http://67.207.71.67:8080/stack/" + month;
+    return axios.get(address);
+}
+
+function removeD3Elements(){
+    console.log("removing elements");
+    g.selectAll("*").remove()
+
+}
+
+
+function loadD3(j) {
+    d3.json(j , function(error, root) {
         console.log('Continued');
-        root = json;
+        root  = j;
         root = d3.hierarchy(root)
             .sum(function(d) { return d.size; })
             .sort(function(a, b) { return b.value - a.value; });
@@ -82,4 +96,23 @@ async function loadPage() {
             circle.attr("r", function(d) { return d.r * k; });
         }
     });
+}
+
+function myFunction() {
+    document.getElementById("myDropdown1").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
 }
