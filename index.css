@@ -26,16 +26,17 @@ svg{
     display: flex;
     width: 100vw;
     height: 120vh;
-    padding-left: 10vw;
+    padding-left: 20vw;
     padding-top:1vh;
 }
+
 body{
-    background-color: rgb(130, 193, 137);
+    background-color: rgb(76, 188, 175);
     height: 130vh;
 }
 h1{
     font-family: "Arial";
-    color: #2d6902;
+    color: #000e7b;
     margin-left: 10px;
 }
 
@@ -55,7 +56,7 @@ li{
 }
 
 a#git{
-    background-color: #3498DB;
+    background-color: #1763e8;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -65,11 +66,11 @@ a#git{
 }
 
 a#git:hover {
-    background-color: #2980B9;
+    background-color: #3a82ff;
 }
 
 .dropbtn {
-    background-color: #3498DB;
+    background-color: #1763e8;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -78,7 +79,7 @@ a#git:hover {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #3a82ff;
 }
 
 .dropdown {

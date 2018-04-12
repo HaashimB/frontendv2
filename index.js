@@ -5,7 +5,7 @@ var svg = d3.select("svg"),
 
 var color = d3.scaleLinear()
     .domain([-6, 5])
-    .range(["hsl(100,80%,80%)", "hsl(150,30%,40%)"])
+    .range(["hsl(110,80%,80%)", "hsl(200,30%,40%)"])
     .interpolate(d3.interpolateHcl);
 
 var pack = d3.pack()
@@ -98,7 +98,7 @@ function loadD3(j) {
     });
 }
 
-function myFunction() {
+function dropDown() {
     document.getElementById("myDropdown1").classList.toggle("show");
 }
 
@@ -115,4 +115,4 @@ window.onclick = function(event) {
             }
         }
     }
-}
+};
