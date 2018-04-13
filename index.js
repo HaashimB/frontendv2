@@ -1,3 +1,5 @@
+
+// I DO NOT OWN ANY OF THE CODE TO DO WITH D3, THIS IS FROM HERE -> https://bl.ocks.org/mbostock/7607535
 var svg = d3.select("svg"),
     margin = 10,
     diameter = +svg.attr("width"),
@@ -24,9 +26,8 @@ async function loadPage(month){
 
     loadD3(json);
 }
-function callAPI(month) {
-
-    var address = "http://67.207.71.67:8080/stack/" + month;
+function callAPI(m) {
+    var address = "http://67.207.71.67:8080/stack/" + m;
     return axios.get(address);
 }
 
@@ -38,6 +39,7 @@ function removeD3Elements(){
 
 
 function loadD3(j) {
+    //ALL OF THE FOLLOWING CODE IS FROM HERE --> https://bl.ocks.org/mbostock/7607535
     d3.json(j , function(error, root) {
         console.log('Continued');
         root  = j;
@@ -102,7 +104,6 @@ function dropDown() {
     document.getElementById("myDropdown1").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
 
@@ -116,3 +117,8 @@ window.onclick = function(event) {
         }
     }
 };
+// When the user clicks on <div>, open the popup
+function popUp() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}

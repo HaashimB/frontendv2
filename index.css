@@ -105,3 +105,56 @@ a#git:hover {
 .dropdown-content a:hover {background-color: #ddd}
 
 .show {display:block;}
+
+/* Popup container */
+.popup {
+    background-color: #1763e8;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    display: inline-block;
+}
+.popup:hover {background-color: #3a82ff}
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 210px;
+    background-color: #2465d852;
+    color: #fff;
+    text-align: justify;
+    padding: 8px 8px;
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+    left: 10%;
+    margin-left: -90px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 0.4s;
+    animation: fadeIn 0.4s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
