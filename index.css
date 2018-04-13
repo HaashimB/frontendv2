@@ -68,7 +68,7 @@ a#git{
 a#git:hover {
     background-color: #3a82ff;
 }
-
+/*DROP DOWN LIST TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_dropdown.asp*/
 .dropbtn {
     background-color: #1763e8;
     color: white;
@@ -106,7 +106,7 @@ a#git:hover {
 
 .show {display:block;}
 
-/* Popup container */
+/*POP UP TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_popup.asp*/
 .popup {
     background-color: #1763e8;
     color: white;
@@ -118,7 +118,7 @@ a#git:hover {
     display: inline-block;
 }
 .popup:hover {background-color: #3a82ff}
-/* The actual popup (appears on top) */
+
 .popup .popuptext {
     visibility: hidden;
     width: 210px;
@@ -133,7 +133,6 @@ a#git:hover {
     margin-left: -90px;
 }
 
-/* Popup arrow */
 .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -141,14 +140,12 @@ a#git:hover {
     margin-left: -5px;
 }
 
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 0.4s;
     animation: fadeIn 0.4s
 }
 
-/* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 1;}

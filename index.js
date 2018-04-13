@@ -99,7 +99,7 @@ function loadD3(j) {
         }
     });
 }
-
+//DROP DOWN LIST TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_dropdown.asp
 function dropDown() {
     document.getElementById("myDropdown1").classList.toggle("show");
 }
@@ -117,7 +117,7 @@ window.onclick = function(event) {
         }
     }
 };
-// When the user clicks on <div>, open the popup
+// POP UP TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_popup.asp
 function popUp() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
