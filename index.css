@@ -27,6 +27,8 @@ svg{
     height: 120vh;
     padding-left: 20vw;
     padding-top:1vh;
+    margin-left: -8px;
+    margin-top: -16px;
 }
 
 body{

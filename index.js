@@ -63,7 +63,7 @@ function loadD3(j) {
             .data(nodes)
             .enter().append("text")
             .attr("class", "label")
-            .style("font-size", "15px")
+            .style("font-size",  txtSize + "px")
             .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
             .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
             .text(function(d) { return d.data.name; });
@@ -84,11 +84,14 @@ function loadD3(j) {
                 .tween("zoom", function(d) {
                     var foc = [focus.x, focus.y, focus.r * 2 + margin];
                     var i = d3.interpolateZoom(view, foc);
-                    if(view < foc){
-                        g.selectAll("text").style("font-size", "15px")
+                    if(view > foc){
+                        console.log("zooming in: " + view);
+                        txtSize  = 20;
+                        g.selectAll("text").style("font-size", txtSize + "px")
                     }else{
-                        txtSize += 2;
-                        g.selectAll("text").style("font-size", " " + txtSize + "px")
+                        console.log("zooming out: " +  view);
+                        txtSize = 15;
+                        g.selectAll("text").style("font-size", txtSize + "px")
                     }
 
                     return function(t) { zoomTo(i(t)); };
