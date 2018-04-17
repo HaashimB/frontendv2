@@ -24,7 +24,6 @@
 }
 svg{
     display: flex;
-    width: 100vw;
     height: 120vh;
     padding-left: 20vw;
     padding-top:1vh;
@@ -35,16 +34,27 @@ body{
     height: 130vh;
 }
 h1{
-    font-family: "Arial";
+    padding-right: 50px;
+    font-family: "Cambria";
+    font-weight: bolder;
     color: #000e7b;
-    margin-left: 10px;
 }
 
-ul {
+ul#menu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-top: -20px;
+    margin-left: -40px;
     width: 100vw;
+    background-color: #005af9c7;
+}
+ul#sub-menu{
+    list-style-type: none;
+    margin-top: -16px;
+    margin-left: -40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100vw;
+    background-color: #116fe891;
 }
 
 li{
@@ -55,31 +65,33 @@ li{
     cursor: pointer;
 }
 
-a#git{
-    background-color: #1763e8;
+a.link{
+    background-color: #116fe8;
     color: white;
     padding: 16px;
     font-size: 16px;
+    font-family: Arial;
     border: none;
     cursor: pointer;
     text-decoration: none;
 }
 
-a#git:hover {
+a.link:hover {
     background-color: #3a82ff;
 }
 /*DROP DOWN LIST TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_dropdown.asp*/
 .dropbtn {
-    background-color: #1763e8;
+    background-color: #2b90cf;
     color: white;
-    padding: 16px;
+    padding: 10px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    margin-left: 350px;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3a82ff;
+    background-color: #41a5e4;
 }
 
 .dropdown {
@@ -91,6 +103,7 @@ a#git:hover {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
+    margin-left: 350px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -108,16 +121,16 @@ a#git:hover {
 
 /*POP UP TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_popup.asp*/
 .popup {
-    background-color: #1763e8;
+    background-color: #2b90cf;
     color: white;
-    padding: 16px;
+    padding: 10px;
     font-size: 16px;
     cursor: pointer;
     position: relative;
     border: none;
     display: inline-block;
 }
-.popup:hover {background-color: #3a82ff}
+.popup:hover {background-color: #41a5e4}
 
 .popup .popuptext {
     visibility: hidden;

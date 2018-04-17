@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tree Maps</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<h1>StackOverVisualised</h1>
+<div>
+    <ul id = "menu">
+        <li>
+            <a class="link" href = "index.html">Circle Packing</a>
+        </li>
+        <li>
+            <a class="link" href = "treemap.html">Tree Map</a>
+        </li>
+        <li>
+            <a class="link" href="https://github.com/hashdoge?tab=repositories">GitHub Repository</a>
+        </li>
+    </ul>
+</div>
+<div>
+    <ul id = "sub-menu">
+        <li>
+            <!--DROP DOWN LIST TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+            <div class="dropdown">
+                <button onclick="dropDown()" class="dropbtn">Choose Month</button>
+                <div id="myDropdown1" class="dropdown-content">
+                    <a onclick="loadPage(jan)" id = "jan">January 2018</a>
+                    <a onclick="loadPage(feb)" id = "feb">February 2018</a>
+                    <a onclick="loadPage(mar)" id = "mar">March 2018</a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <!--POP UP TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_popup.asp*/-->
+            <button class="popup" onclick="popUp()"><a>Info</a>
+                <span class="popuptext" id="myPopup">
+                        This is a visualisation based on the tags from the website "Stack Overflow", each of the circles
+                        represents a unique tag, e.g. JavaScript, the size of the circles is determined by the overall
+                        score that each tag and all of it's children have.
+                    </span>
+            </button>
+        </li>
+
+    </ul>
+</div>
+
+<svg width="960" height="960"></svg>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<div id = "vis">
+    <script src="index.js"></script>
+</div>
+
+</body>
+</html>
