@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StackOverVisualised</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+
+        .node circle {
+            fill: #999;
+        }
+
+        .node text {
+            font: 10px sans-serif;
+        }
+
+        .node--internal circle {
+            fill: #555;
+        }
+
+        .node--internal text {
+            text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+        }
+
+        .link {
+            fill: none;
+            stroke: #555;
+            stroke-opacity: 0.4;
+            stroke-width: 1.5px;
+        }
+
+    </style>
+</head>
+<body>
+<ul id = "menu">
+    <li><h1>StackOverVisualised</h1></li>
+    <li>
+        <a class="link" href = "index.html">Circle Packing</a>
+    </li>
+    <li>
+        <a class="link" href = "bubblechart.html">Bubble Chart</a>
+    </li>
+    <li>
+        <a class="link" href="https://github.com/hashdoge?tab=repositories">GitHub Repository</a>
+    </li>
+</ul>
+<ul id = "sub-menu">
+    <li>
+        <!--DROP DOWN LIST TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+        <div class="dropdown" style = "margin-left: 140px">
+            <button onclick="dropDown()" class="dropbtn">Choose Month</button>
+            <div id="myDropdown1" class="dropdown-content" style = "margin-left: 360px">
+                <a onclick="loadPage(jan)" id = "jan">January 2018</a>
+                <a onclick="loadPage(feb)" id = "feb">February 2018</a>
+                <a onclick="loadPage(mar)" id = "mar">March 2018</a>
+            </div>
+        </div>
+    </li>
+    <li>
+        <!--POP UP TAKEN AND RECREATED FROM HERE -> https://www.w3schools.com/howto/howto_js_popup.asp*/-->
+        <button class="popup" onclick="popUp()"><a>Info</a>
+            <span class="popuptext" id="myPopup">
+                            This is a visualisation based on the tags from the website "Stack Overflow", each of the circles
+                            represents a unique tag, e.g. JavaScript, the size of the circles is determined by the overall
+                            score that each tag and all of it's children have.
+                        </span>
+        </button>
+    </li>
+</ul>
+
+<svg width="960" height="960"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<div id = "vis">
+    <script src="bubblechart.js"></script>
+</div>
+
+
+
+</body>
+</html>

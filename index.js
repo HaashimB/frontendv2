@@ -27,7 +27,7 @@ async function loadPage(month){
     loadD3(json);
 }
 function callAPI(m) {
-    var address = "http://67.207.71.67:8080/stack/" + m;
+    var address = "http://127.0.0.1:8000/stack/" + m;
     return axios.get(address);
 }
 
